@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/helloworld",
+            "lambdaFunction": "nycintrojsamplify86dab34a",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "nycjsamplify",
+    "apiName": "nycjsamplify",
+    "functionArns": [
+        {
+            "lambdaFunction": "nycintrojsamplify86dab34a"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "nyc-intro-js-amplify-20190502104105-authRole",
+        "unAuthRoleName": "nyc-intro-js-amplify-20190502104105-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "nycintrojsamplify86dab34a",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
