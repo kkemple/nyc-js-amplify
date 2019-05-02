@@ -15,5 +15,22 @@
                 "cognito8641799c": {}
             }
         }
+    },
+    "addapi": {
+        "awscloudformation": {
+            "AuthRoleName": "nyc-intro-js-amplify-20190502104105-authRole",
+            "UnauthRoleArn": "arn:aws:iam::781155362072:role/nyc-intro-js-amplify-20190502104105-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::781155362072:role/nyc-intro-js-amplify-20190502104105-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "nyc-intro-js-amplify-20190502104105-deployment",
+            "UnauthRoleName": "nyc-intro-js-amplify-20190502104105-unauthRole",
+            "StackName": "nyc-intro-js-amplify-20190502104105",
+            "StackId": "arn:aws:cloudformation:us-east-1:781155362072:stack/nyc-intro-js-amplify-20190502104105/50d10980-6ce8-11e9-ad7b-12dffdf25cac"
+        },
+        "categories": {
+            "auth": {
+                "cognito8641799c": {}
+            }
+        }
     }
 }
