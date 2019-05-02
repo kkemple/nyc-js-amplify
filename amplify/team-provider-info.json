@@ -1,0 +1,19 @@
+{
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "nyc-intro-js-amplify-20190502101719-authRole",
+            "UnauthRoleArn": "arn:aws:iam::781155362072:role/nyc-intro-js-amplify-20190502101719-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::781155362072:role/nyc-intro-js-amplify-20190502101719-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "nyc-intro-js-amplify-20190502101719-deployment",
+            "UnauthRoleName": "nyc-intro-js-amplify-20190502101719-unauthRole",
+            "StackName": "nyc-intro-js-amplify-20190502101719",
+            "StackId": "arn:aws:cloudformation:us-east-1:781155362072:stack/nyc-intro-js-amplify-20190502101719/feca87e0-6ce4-11e9-83a9-0e3ecaa51b46"
+        },
+        "categories": {
+            "auth": {
+                "cognito8641799c": {}
+            }
+        }
+    }
+}
